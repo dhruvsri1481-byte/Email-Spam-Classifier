@@ -51,10 +51,11 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL
 );
 
-```markdown
+````markdown
 Run the Flask App:
 ```bash
 python app.py
+
 Goto browser to open this website in Localhost:
 http://127.0.0.1:5000/
 
