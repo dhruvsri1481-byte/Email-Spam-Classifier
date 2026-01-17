@@ -32,14 +32,12 @@ Clone this Repository:
 git clone https://github.com/dhruvsri1481-byte/Email-Spam-Classifier.git
 cd Email-Spam-Classifier
 
-
 Install Required Python Packages:
 pip install Flask
 pip install nltk
 pip install mysql-connector-python
 
 Create a MySQL Database and Table:
-
 CREATE DATABASE smc;
 USE smc;
 CREATE TABLE users (
@@ -51,13 +49,10 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL
 );
 
-````markdown
 Run the Flask App:
-```bash
 python app.py
 
 Goto browser to open this website in Localhost:
 http://127.0.0.1:5000/
-
 
 
